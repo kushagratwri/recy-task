@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name - New Year Countdown</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <!-- Countdown and Graph Section -->
+  <div class="top-section">
+    <div class="countdown">
+      <h1>DD:HH:MM:SS</h1>
+      <div id="timer"></div>
+      <button id="preview-btn">Preview</button>
+      <p>Be Creative Here<br>Do whatever you like</p>
+    </div>
+    <div class="graph">
+      <h3>empirical evidence i need to go to classes in 4th sem</h3>
+      <div class="graph-area">
+        <div class="y-axis-label">chap gya</div>
+        <svg class="plot" viewBox="0 0 100 100">
+          <polyline points="10,0 20,10 50,50 75,80 95,100" stroke="green" stroke-width="2" fill="none"/>
+        </svg>
+        <div class="negative-y-axis-label">chud gya</div>
+      </div>
+    </div>
+  </div>
+  <!-- About Section -->
+  <div class="about-section">
+    <div class="profile" style="background-image:url('dp.jpg');"></div>
+    <div class="about-me">
+      <h2>Tell about yourself Here</h2>
+      <p>Name<br>About you:<br>Skills:<br>Or whatever you like</p>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
